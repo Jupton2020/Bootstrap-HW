@@ -1,0 +1,41 @@
+html,body{  
+    height: 100%;
+}
+
+body{ 
+    display:flex;
+    flex-direction: column;  
+    background-image: url(../Bootstrap-HW/img/leaves.png);
+    padding-top: 70px;
+
+
+}
+.container h3:hover {  color: red;  
+
+}
+
+h4{ 
+    color: red;
+}
+
+.container{ 
+    flex:1 0 auto;
+}
+
+#header a:hover{   
+ 
+color: red;
+}
+
+
+#sticky-footer{ 
+    padding: 20px;
+    margin:20px;
+    color:white;
+    background-color:black;
+    border-style: solid black;
+    flex-shrink:0;
+}
+
+
+
