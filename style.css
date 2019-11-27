@@ -7,9 +7,12 @@ body{
     flex-direction: column;  
     background-image: url(../Bootstrap-HW/img/leaves.png);
     padding-top: 70px;
-
-
 }
+h5 {color: red;}
+h6 {color: purple;}
+
+#header{background: red;}
+
 .container h3:hover {  color: red;  
 
 }
@@ -17,6 +20,8 @@ body{
 h4{ 
     color: red;
 }
+
+
 
 .container{ 
     flex:1 0 auto;
@@ -28,12 +33,46 @@ color: red;
 }
 
 
+.box{   
+position: relative;
+width: 200px;
+display:flex;
+margin: 0 auto;
+margin-top: 10px;
+}
+
+
+.text{  
+position: relative;
+z-index: 999;
+margin: 0 auto;
+text-align: center;
+background:brown;
+font-family: Arial, Helvetica, sans-serif;
+width:200px;
+}
+
+.text a{    
+    text-decoration:none;
+
+}
+
+.text a:hover{color: red;}
+
+.body{
+margin: 0 auto;}
+
+img{border: 1px solid black;}
+
+
+
+
 #sticky-footer{ 
     padding: 20px;
     margin:20px;
     color:white;
     background-color:black;
-    border-style: solid black;
+    border:1px solid black;
     flex-shrink:0;
 }
 
